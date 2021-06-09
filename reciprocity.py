@@ -24,7 +24,7 @@ def find_max_field_enhancement(n_list, d_list, lam_vac):
     for theta in theta_list:
         coh_tmm_data = coh_tmm('p', n_list, d_list, theta, lam_vac)
         data = position_resolved(layer, d_in_layer, coh_tmm_data)
-        Ep = array([data['Ex'], data['Ey'], data['Ez']])
+        Ep = np.array([data['Ex'], data['Ey'], data['Ez']])
         magnitude = np.linalg.norm(Ep)    
         field_enhancement.append(magnitude)
       
