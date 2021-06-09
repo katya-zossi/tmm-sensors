@@ -12,4 +12,4 @@ The scripts have been tested in an environment with the following packages:
 * scipy 1.5.2
 * matplotlib 3.3.4
 
-Work in progress to make a tmm-sensors into a PyPI package. 
+Work in progress to make tmm-sensors into a PyPI package. 
