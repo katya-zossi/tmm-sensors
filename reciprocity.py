@@ -40,7 +40,7 @@ def dipole_moment(alpha, n_list, d_list, theta_opt, lam_vac):
     d_in_layer = 0 
     
     coh_tmm_data = coh_tmm('p', n_list, d_list, theta_opt, lam_vac)
-    data = position_resolved(layer,d_in_layer,coh_tmm_data)
+    data = position_resolved(layer, d_in_layer, coh_tmm_data)
 
     Ex = data['Ex']
     Ey = data['Ey']
